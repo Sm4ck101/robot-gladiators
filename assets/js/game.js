@@ -46,7 +46,7 @@ var fight = function(enemy) {
   var isPlayerTurn = true;
 
   // randomly change turn order
-  if (Nath.random() > 0.5)  {
+  if (Math.random() > 0.5)  {
     isPlayerTurn = false;
   }
 
